@@ -17,7 +17,7 @@ Quick Component Overview
           - own the site.
 * Exploit store - a place to store some of the stuff you use alot and keep forgetting consider it your note book e.g. default credentials. 
 * Users - deals with user management add, view delete etc please note all users will have admin rights. 
-* Print Tutorials - This deals with creatio of printable tutorials consult screenshot for sample. - to print all tutorials or tutorials on current page just filter as required e.g
+* Print Tutorials - This deals with creation of printable tutorials consult screenshot for sample. - to print all tutorials or tutorials on current page just filter as required e.g
 	-Set "Groups per page:  " to 1 and only show one tutorial per page then search for the tutorial you want then click printer friendly version to print just t
 hat one tutorial. 
 	- you could also print all if you show all or print 5 per set or 3 tutorials per set etc. 
