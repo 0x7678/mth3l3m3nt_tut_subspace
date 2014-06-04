@@ -1,0 +1,2 @@
+<LINK rel=stylesheet type=text/css href="mystyle.css"><P 
+align=center><IMG border=0 alt="Ruthy || r00t3r" src="images/ruth.png"><IMG border=0 alt=Mth3l3m3nt src="images/mth3l3m3nt_glow.gif"><IMG border=0 alt="Munir || Martian" src="images/munir.png"></P>

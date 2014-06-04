@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<HTML {$html_attrs}><HEAD><TITLE>{$pagetitle}</TITLE>
+<META content=IE=7 http-equiv=X-UA-Compatible>
+<META content="text/html; charset=utf-8" http-equiv=Content-Type><LINK rel=stylesheet type=text/css href="styles/default.css">{BEGIN rtlCSS}<LINK rel=stylesheet type=text/css href="styles/defaultRTL.css">{END rtlCSS}{BEGIN styleCSSFiles}<LINK rel=stylesheet type=text/css href="{$stylepath}">{END styleCSSFiles}{BEGIN pageCSSFiles}<LINK rel=stylesheet type=text/css href="{$pagestylepath}">{END pageCSSFiles}<!--%%pagestyle%%--><!--[if IE]><LINK rel=stylesheet type=text/css href="styles/defaultIE.css">{BEGIN IEcssFiles}<LINK rel=stylesheet type=text/css href="{$stylepathIE}">{END IEcssFiles}<![endif]-->
+<META name=GENERATOR content="MSHTML 8.00.6001.23588">
+<STYLE>
+body{
+background-color: #FFFFFF;
+}
+</STYLE>
+</HEAD>
+<BODY class="{$stylename}" {$bodyattrs}>
+{BEGIN body}{BEGIN container_grid}
+{BEGIN pages}<DIV id=grid_block{$id}>
+<TABLE style="WIDTH: auto" border=0 cellSpacing=0 cellPadding=5>
+  <TBODY>
+  <TR class="runner-toprow style1">
+    <TD class=runner-cl><IMG src="images/spacer.gif"></TD>
+    <TD class=runner-cc><FONT color=#ffffff></FONT></TD>
+    <TD class=runner-cr><IMG src="images/spacer.gif"></TD></TR>
+  <TR class="runner-row style1">
+    <TD class=runner-cl></TD>
+    <TD style="WIDTH: auto" class=runner-cc>
+      <TABLE 
+      style="PADDING-BOTTOM: 2px; PADDING-LEFT: 2px; WIDTH: 1079px; PADDING-RIGHT: 2px; HEIGHT: 477px; PADDING-TOP: 2px" 
+      border=0 cellSpacing=4 borderColor=#ffffff cellPadding=4 bgColor=#ffffff><!-------------------------------------  group headers ----------------------------------------->
+        {BEGIN grid_row}<TBODY>
+        {BEGIN tutorial_tutorial_name_newgroup}<TR style="HEIGHT: 11px">
+          <TD style="WIDTH: 49px"></TD>
+          <TD style="WIDTH: 159px"></TD>
+          <TD style="WIDTH: 491px"></TD>
+          <TD style="WIDTH: 202px"></TD></TR>
+        <TR>
+          <TD style="WIDTH: 913px" class=header_1 colSpan=4><FONT 
+            style="FONT-WEIGHT: 900" color=#0000ff size=4>
+            <P>&nbsp;</P>
+            <P align=center>{$tutorial_tutorial_name_grval}</P></FONT></TD></TR><!-------------------------------------  data ----------------------------------------->
+        {END tutorial_tutorial_name_newgroup}{BEGIN row_data}<TR>
+          <TD 
+          style="BORDER-BOTTOM-STYLE: none; WIDTH: 48px; BORDER-TOP-STYLE: none; BORDER-LEFT-STYLE: none; BORDER-RIGHT: 1px solid" 
+          class="noborder group_1">&nbsp;</TD>
+          <TD style="WIDTH: 159px" class=data>
+            <P>&nbsp;</P></TD>
+          <TD style="WIDTH: 491px" class=data>
+            <P>&nbsp;</P><FONT color=#ff0000><STRONG>
+            <P align=center>{$steps_step_title_value}</P></STRONG></FONT>
+            <P>&nbsp;</P>
+            <P>{$steps_step_description_value}</P>
+            <P>&nbsp;</P>
+            <P>&nbsp;</P>
+            <P>&nbsp;</P>
+            <P>&nbsp;</P>
+            <P>&nbsp;</P></TD>
+          <TD style="WIDTH: 202px" class=data></TD></TR><!-------------------------------------  group summary ----------------------------------------->
+        {END row_data}{BEGIN tutorial_tutorial_name_endgroup}<TR>
+          <TD style="WIDTH: 913px; BORDER-TOP-STYLE: none" 
+          class="noborder group_1" colSpan=4><STRONG>{$tutorial_tutorial_name_grval}</STRONG><FONT 
+            color=#800080>&nbsp;<STRONG>has</STRONG> &nbsp;</FONT><STRONG><FONT 
+            color=#800080>{$grouptutorial_tutorial_name_total_cnt}</FONT></STRONG><FONT 
+            color=#800080> <STRONG>Hacking 
+      Steps</STRONG></FONT></TD></TR>{END tutorial_tutorial_name_endgroup}</TBODY>{END grid_row}</TABLE></TD>
+    <TD class=runner-cr></TD></TR>
+  <TR class="runner-row style1">
+    <TD class=runner-cl></TD>
+    <TD class=runner-cc>
+      <TABLE border=0 cellSpacing=0 cellPadding=0><!--				-->
+        <TBODY></TBODY></TABLE></TD>
+    <TD class=runner-cr></TD></TR>
+  <TR class="runner-bottomrow style1">
+    <TD class=runner-cl><IMG src="images/spacer.gif"></TD>
+    <TD class=runner-cc>
+      <P>&nbsp;</P>
+      <P><STRONG>Page</STRONG> <B>{$pageno}</B> <STRONG>of</STRONG> 
+      <B>{$maxpages}</B> </P>
+      <P>&nbsp;</P>
+      <P align=center><STRONG><EM><FONT color=#800080 
+      size=2>Printed By 
+      Mth3l3m3nt Tut 
+      Subspace</FONT></EM></STRONG></P></TD>
+    <TD class=runner-cr><IMG src="images/spacer.gif"></TD></TR></TBODY></TABLE></DIV>{END pages}{END container_grid}{END body}</BODY></HTML>
