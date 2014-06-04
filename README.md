@@ -5,9 +5,9 @@ Tutorial Manager and Exploit Store for Security People and those in other domain
 
 Mth Tut Subspace is given for free as is , modification is also allowed to the program if need arises. 
 
-############################
+
 Quick Component Overview
-############################
+=============================
 
 * Categories - point of landing , deals with creation of super categorizations of where data within  a tutorial or exploit store falls e.g. google dork, platform attack , botnet notes etc
 * Tutorials - general description / summary of a project done and a series of steps to the end goal need to be written. a tutorial has to fall within a category. 
@@ -25,7 +25,6 @@ hat one tutorial.
 For More detailed Documentation: Mth3l3m3nt-tut-subspace-Manual.pdf available here will help
 
 
-########################
 ERD
-########################
+===============
 See attached screenshot. (mth3l3m3nt-tut-subspace-ERD.png)
